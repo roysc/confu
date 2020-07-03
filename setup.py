@@ -31,6 +31,7 @@ setup(
 
     install_requires=requirements,
     test_requires=test_requirements,
+    setup_requires=['wheel'],
 
     zip_safe=True
 )
